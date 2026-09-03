@@ -35,3 +35,4 @@ jobs:
           gcloud auth list --format="value(account)"
           echo "Project details:"
           gcloud projects describe your-project-id --format="value(name,projectId)"
+          
